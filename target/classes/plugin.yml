@@ -1,0 +1,15 @@
+name: ExarotonBackendHelper
+main: com.AurorasChaos.ExarotonBackendHelper
+version: 1.0
+api-version: 1.20
+description: A Spigot plugin for handling server switching via Exaroton.
+author: AurorasChaos
+commands:
+  switchserver:
+    description: Switch a player to another Exaroton server.
+    usage: /switchserver <player> <subserver>
+    permission: spigotplugin.switchserver
+permissions:
+  spigotplugin.switchserver:
+    description: Allows a player to use the switchserver command.
+    default: op
